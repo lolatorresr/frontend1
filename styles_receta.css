@@ -1,17 +1,23 @@
 body{
     margin-top:0;
-    background-color:white;
+    background-color:#fff;
 }
 
 .menu{
     width:100%;
-    height:50px;
+    height:100px;
     background-color:#f5ce9c;
-    font-size:24px;
-    text-align:center;
-    border: 2px solid black;
+    border: 2px solid rgb(0,0,0);
     border-radius:4px;
-    line-height:50px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.recetasarglogo{
+    width:90px;
+    height:90px;
 }
 
 nav{
@@ -29,15 +35,34 @@ nav{
 .aprende{
 font-size:17px;
 font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-border: 2px solid black;
-border-radius:4px;
 } 
 
 .box{
     width:100px;
     height:100px;
     float:right;
+    cursor:pointer;
     margin-top:10px;
+    animation-name: whatsapplogo;
+    animation-duration:15s;
+    animation-delay:2s;
+    position:relative;
+    animation-timing-function:linear;
+    animation-iteration-count:infinite;
+}
+
+@keyframes whatsapplogo{
+    0%{right:0;top:0;}
+    10%{right:0; top:110px;}
+    20%{right:0; top:220px;}
+    30%{right:0; top:330px;}
+    40%{right:0;top:440px;}
+    50%{right:0;top:550px;}
+    60%{right:0;top:440px;}
+    70%{right:0;top:330px;}
+    80%{right:0;top:220px;}
+    90%{right:0;top:110px;}
+    100%{right:0;top:0;}
 }
 
 .intro, .receta {
@@ -46,9 +71,10 @@ border-radius:4px;
     border:2px solid black;
     border-radius:4px;
 }
-img {
-    width:400px;
-    height:300px;
+
+.calapurca {
+    width:300px;
+    height:200px;
 }
 
 .title {
@@ -58,29 +84,29 @@ img {
 }
 
 footer{
-    background-color:black;
-    margin:3px;
-    border:1px solid black;
-    border-radius:4px;
-    color:white;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.redes{
+    border-radius:6px;
     display:flex;
-    flex-flow:row nowrap;
-    justify-content:space-around;
+    flex-wrap:wrap;
+    justify-content:space-between;
     align-items:center;
 }
 
+.redes{
+    width:300px;
+    background-color:rgb(0, 0, 0);
+    border:2px solid #fff;
+}
+
 .logo{
-    width:100px;
-    height:100px;
+    width:30px;
+    height:30px;
     margin:20px;
+    cursor:pointer;
 }
 
 a{
     color:blue;
+    cursor:pointer;
 }
 
 a:visited{
@@ -88,7 +114,7 @@ a:visited{
 }
 
 a:hover{
-    color:rgb(172, 114, 211);
+    color:rgb(140, 140, 140);
 }
 
 a:active{
