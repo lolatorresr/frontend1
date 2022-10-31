@@ -1,4 +1,4 @@
-@media (max-width:1400px){
+@media (max-width:1200px){
     html{
         font-size:18px;
         background-color:#fff;
@@ -10,7 +10,7 @@
     
 }
 
-@media (max-width:768px){
+@media (max-width:991px){
 html{
     font-size:14px;
     background-color:rgb(180, 180, 180);
@@ -21,7 +21,7 @@ html{
 }
 }
 
-@media (max-width:450px){
+@media (max-width:575px){
 html{
     font-size:10px;
     background-color:rgb(117, 117, 117);
