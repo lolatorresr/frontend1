@@ -64,18 +64,6 @@ html{
     height:10rem;
 }
 
-.otrasrecetas{
-    margin-top:0.2rem;
-    padding:0.3rem;
-    border: 0.1rem solid rgb(0,0,0);
-    border-radius:0.2rem;
-    font-size:1.5rem;
-    display:flex;
-    flex-wrap: wrap;
-    justify-content:space-around;
-    align-items:center;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
 
 .box{
     width:6rem;
@@ -128,6 +116,23 @@ iframe{
     text-decoration:underline;
 }
 
+.card-img-top{
+    width:14rem;
+    height:11rem;
+}
+
+.card-body{
+    display:column;
+    justify-content:center;
+    align-items:center;
+}
+
+.cards{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+}
+
 footer{
     border-radius:0.2rem;
     display:flex;
@@ -154,20 +159,20 @@ footer{
 }
 
 a{
-    color:rgb(109, 109, 109);
+    color:rgb(0, 0, 0);
     cursor:pointer;
     text-decoration:none;
 }
 
 a:visited{
-    color:rgb(109, 109, 109);
+    color:rgb(0, 0, 0);
 }
 
 a:hover{
-    color:rgb(137, 192, 255);
+    color:rgb(77, 160, 255);
     text-decoration:underline;
 }
 
 a:active{
-    color:rgb(137, 192, 255);
+    color:rgb(77, 160, 255);
 }
